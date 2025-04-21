@@ -1,0 +1,19 @@
+.card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    background: #fff;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+  }
+  
